@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Fonte do projeto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--icons do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--javascript bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--CSS do projeto-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog da Isinha</title>
+</head>
+<body>
+    <!--navbar do site-->
+    <header>
+        <nav class="container-fluid p-5  bg-dark text-white fixed-top">
+           <img src="/img/logo site.png" class="img-fluid rounded float-start logo-menu" alt="Blog da Isinha">
+           <ul class="nav justify-content-end nav-menu">
+            <li class="nav-link text-white menu-link"><a href="index.html">Inicio</a></li>
+            <li class="nav-link text-white menu-link">Posts</li>
+            <li class="nav-link text-white menu-link">Quem Somos</li>
+            <li class="nav-link text-white menu-link"><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      
+        <section class="container container-banner" style="width:800px ; height:500px;">
+            <!-- Carousel -->
+        <div id="demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+  
+    <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="/img/fema logo.jpg" alt="Fema logo" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+        <img src="Banner campanha de adoção.png" alt="Campanha Adoção" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="Banner contato.png" alt="Contato" class="d-block w-100">
+        </div>
+        </div>
+  
+    <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+            </div>
+        </section>
+        
+        <section>
+            
+            <nav class="container">
+                <hr >
+            <div class="card mb-5">
+                <div class="row g-0 card-post">
+                  <div class="col-md-4">
+                    <img src="/img/post1.jpg" class="img-fluid rounded-start" alt="Notebook">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Quais as linguagens de programação mais usadas em 2022?</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-end botao-card">
+                        <button class="btn btn-primary" type="button">Saiba mais</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-5">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/game post.jpg" class="img-fluid rounded-start" alt="Notebook">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Jogos online crescem 27% em 2022</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-end botao-card">
+                        <button class="btn btn-primary" type="button">Saiba mais</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="card mb-5">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/blackfriday post.jpg" class="img-fluid rounded-start" alt="Notebook">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Confira nossas dicas para não cair em golpes nessa Black Friday</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-end botao-card">
+                        <button class="btn btn-primary" type="button">Saiba mais</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>            
+              <div class="card mb-5">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/post1.jpg" class="img-fluid rounded-start" alt="Notebook">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Quais as linguagens de programação mais usadas em 2022?</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>                      <div class="d-grid gap-2 d-md-flex justify-content-md-end botao-card">
+                        <button class="btn btn-primary" type="button">Saiba mais</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </section>
+
+    
+    </main>
+    <footer>
+        <nav class="container-fluid p-5 bg-dark text-white sticky-bottom text-center">
+            <h2 class="titulo-rodape">Siga-nos</h2>
+            <nav class="logo-rodape">
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-instagram"></i>
+            </nav>
+            <div class="texto-rodape">
+                <h6>Site feito com o &#128147 por Isabela e Pedro</h6>
+                <h6>Todos os direitos reservados. &#169; Copyright - 2022</h6>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

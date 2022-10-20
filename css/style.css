@@ -1,0 +1,91 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Para dispositivos com width menor que 768px*/
+body {
+    padding-top: 190px;
+  }
+  
+  /*Para dispositivos com width maior ou igual a 768px*/
+  @media (min-width: 768px) {
+   body {
+       padding-top: 200px;
+    }
+  }
+
+
+
+
+
+
+.nav-menu{
+  padding-right: 150px;
+  font-size: 24px;
+}
+.logo-menu{
+  width: 70px; 
+  height: 60px;
+  margin-left: 150px;
+}
+
+.menu-link a{
+  color: white;
+  text-decoration: none;
+}
+.menu-link:hover{
+  font-size: 28px;
+  border-bottom: 1px solid white;
+}
+
+.carousel {
+  border: 1px solid black;
+} 
+
+.botao-card{
+  padding-top: 80px;
+}
+
+
+
+.logo-rodape{
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.texto-rodape{
+  padding-bottom: 5px;
+}
+
+/*pagina contato*/
+
+.msg-form{
+  padding: 15px;
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 770px;
+  height: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quadrado-form{
+  padding: 15px;
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 1000px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+#nome, #email, #sugestao{
+  margin: 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input, textarea, button{
+  border-radius: 7px;
+  border: 1px solid rgba(66, 65, 65, 0.452);
+}
+
+label{
+  display: block;
+}
