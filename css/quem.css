@@ -1,0 +1,63 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Para dispositivos com width menor que 768px*/
+
+
+/*Para dispositivos com width maior ou igual a 768px*/
+
+
+
+
+.nav-menu{
+padding-right: 150px;
+font-size: 24px;
+}
+.logo-menu{
+width: 70px; 
+height: 60px;
+margin-left: 150px;
+}
+
+.menu-link a{
+color: white;
+text-decoration: none;
+}
+.menu-link:hover{
+font-size: 28px;
+border-bottom: 1px solid white;
+}
+
+.carousel {
+border: 1px solid black;
+} 
+
+.botao-card{
+padding-top: 80px;
+}
+
+.logo-rodape{
+font-size: 40px;
+padding-bottom: 15px;
+}
+.texto-rodape{
+padding-bottom: 5px;
+}
+
+/*pagina contato*/
+
+
+
+.container-sobre{
+    display: flex;
+}
+
+.imgPedro{
+    width: 350px;
+    height: 350px;
+}
+
+.legenda{
+    justify-content: end;
+}
