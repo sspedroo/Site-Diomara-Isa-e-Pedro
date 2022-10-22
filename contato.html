@@ -16,28 +16,31 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
      <!--CSS do projeto-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
     <title>Contato</title>
 </head>
 <body>
     <!--navbar do site-->
     <header>
         <nav class="container-fluid p-5  bg-dark text-white sticky-top">
-           <img src="/img/logo site.png" class="img-fluid rounded float-start logo-menu" alt="Blog da Isinha">
+           <img src="img/logo site.png" class="img-fluid rounded float-start logo-menu" alt="Blog da Isinha">
            <ul class="nav justify-content-end nav-menu">
             <li class="nav-link text-white menu-link"><a href="index.html">Início</a></li>
             <li class="nav-link text-white menu-link">Posts</li>
-            <li class="nav-link text-white menu-link">Quem Somos</li>
+            <li class="nav-link text-white menu-link"><a href="somos.html">Quem Somos</a></li>
             <li class="nav-link text-white menu-link"><a href="contato.html">Contato</a></li>
           </ul>
         </nav>
     </header>
     <section>
-        <div class="container msg-form">
-            <h2>Tem uma sugestão de tema? Mande para nós:</h2>
-        </div>
-        <div class="container form-1">
+        <div class="form-1">
+            <div class="msg-form">
+                <h2>Tem uma sugestão de tema? Mande para nós:</h2>
+            </div>
             <form class="quadrado-form">
+                <div class="imgform">
+                    <img src="./img/undraw_forms_re_pkrt.svg">
+                </div>
                     <div>
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome" required>
@@ -50,10 +53,51 @@
                         <label for="sugestao">Envie sua sugestão:</label>
                         <textarea name="sugestão" id="sugestao" cols="30" rows="10" required></textarea>
                     </div>
+
+                    <div lass=>
+                    <div>
+                        <label for="conheceu">Como conheceu nosso blog?</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="amigos" name="amigos" checked>
+                        <label for="scales">Amigos/familiares</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="prop" name="propaganda" checked>
+                        <label for="scales">Propaganda</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pesquisa" name="pesquisa" checked>
+                        <label for="scales">Pesquisa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="redes" name="redes" checked>
+                        <label for="scales">Redes sociais</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="outro" name="outro" checked>
+                        <label for="scales">Outro</label>
+                    </div>
+
+                    
+                    </div>
                     <button type="submit" id="enviar">Enviar</button>
             </form>
         </div>
     </section>
     <main>
+        <footer>
+            <nav class="container-fluid bg-dark text-white sticky-bottom text-center rodape-caixa">
+                <h2 class="titulo-rodape">Siga-nos</h2>
+                <nav class="logo-rodape">
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-instagram"></i>
+                </nav>
+                <div class="texto-rodape">
+                    <h6>Site feito com o &#128147 por Isabela e Pedro</h6>
+                    <h6>Todos os direitos reservados. &#169; Copyright - 2022</h6>
+                </div>
+            </nav>
+        </footer>
 </body>
 </html>

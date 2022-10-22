@@ -3,16 +3,9 @@
 }
 
 /*Para dispositivos com width menor que 768px*/
-body {
-    padding-top: 190px;
-  }
   
   /*Para dispositivos com width maior ou igual a 768px*/
-  @media (min-width: 768px) {
-   body {
-       padding-top: 200px;
-    }
-  }
+  
 
 
 
@@ -61,27 +54,29 @@ body {
 }
 
 /*pagina contato*/
+.form-1{
+    display: grid;
+    justify-content: center;
+}
 
 .msg-form{
-  padding: 15px;
-  background-color: lightgray;
-  border-radius: 20px;
-  width: 770px;
-  height: 70px;
   font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .quadrado-form{
+    margin-bottom: 70px;
   padding: 15px;
-  background-color: lightgray;
+  background-color: rgba(121, 75, 230, 0.199);
   border-radius: 20px;
-  width: 1000px;
-  height: 500px;
-  margin-top: 100px;
+  width: 850px;
+  height: auto;
 }
 
-#nome, #email, #sugestao{
-  margin: 10px 10px;
+#nome, #email{
+  margin: 5px 5px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -90,6 +85,41 @@ input, textarea, button{
   border: 1px solid rgba(66, 65, 65, 0.452);
 }
 
+#email{
+    margin-bottom: 30px;
+}
+
+#sugestao{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: none;
+    margin-left: 6px;
+}
+
 label{
   display: block;
+  margin-left: 6px;
 }
+
+#enviar{
+    margin-left: 110px;
+    margin-top: 15px;
+    padding: 0px 15px 0px 15px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+#enviar:hover{
+    background-color: rgba(31, 31, 34, 0.192);
+    transform: rotate(360deg) scale(1.5);
+}
+.imgform{
+  display: inline;
+}
+
+.imgform img{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
