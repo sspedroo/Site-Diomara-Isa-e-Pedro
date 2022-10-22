@@ -42,8 +42,17 @@ body {
   border: 1px solid black;
 } 
 
+.fema-foto img{
+  width: 774px;
+  height: 387px;
+}
+
 .botao-card{
   padding-top: 80px;
+}
+
+.container-post img{
+  height: 286px;
 }
 
 
