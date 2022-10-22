@@ -78,15 +78,21 @@
 #nome, #email{
   margin: 5px 5px;
   font-family: 'Montserrat', sans-serif;
+  width: auto;
 }
 
 input, textarea, button{
   border-radius: 7px;
   border: 1px solid rgba(66, 65, 65, 0.452);
+  width: auto;
 }
 
 #email{
     margin-bottom: 30px;
+    display: block;
+    margin-left: 6px;
+    width: auto;
+    margin-left: 0px;
 }
 
 #sugestao{
@@ -94,11 +100,16 @@ input, textarea, button{
     font-family: 'Montserrat', sans-serif;
     padding: none;
     margin-left: 6px;
+    width: auto;
+    display: block;
+    margin-left: 0px;
 }
 
-label{
+#nome{
   display: block;
   margin-left: 6px;
+  width: auto;
+  margin-left: 0px;
 }
 
 #enviar{
@@ -107,6 +118,7 @@ label{
     padding: 0px 15px 0px 15px;
     transition: 1s all;
     cursor:pointer;
+    width: auto;
 }
 
 #enviar:hover{
@@ -123,3 +135,7 @@ label{
     float: right;
 }
 
+.conheceu{
+  margin-left: 3px;
+  margin-top: 7px;
+}
