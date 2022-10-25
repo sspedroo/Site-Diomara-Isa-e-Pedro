@@ -106,7 +106,7 @@ input, textarea, button{
     margin-left: 0px;
 }
 
-#sugestao textarea{
+textarea#sugestao{
   padding: 1px;
   padding-left: 2px;
 }
