@@ -68,7 +68,7 @@
 }
 
 .quadrado-form{
-    margin-bottom: 70px;
+  margin-bottom: 70px;
   padding: 15px;
   background-color: rgba(121, 75, 230, 0.199);
   border-radius: 20px;
@@ -107,7 +107,8 @@ input, textarea, button{
 }
 
 #sugestao textarea{
-  padding: 0;
+  padding: 1px;
+  padding-left: 2px;
 }
 
 #nome{
