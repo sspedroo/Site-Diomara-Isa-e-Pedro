@@ -49,6 +49,7 @@
   font-size: 40px;
   padding-bottom: 15px;
 }
+
 .texto-rodape{
   padding-bottom: 5px;
 }
@@ -105,6 +106,10 @@ input, textarea, button{
     margin-left: 0px;
 }
 
+#sugestao textarea{
+  padding: 0;
+}
+
 #nome{
   display: block;
   margin-left: 6px;
@@ -139,3 +144,5 @@ input, textarea, button{
   margin-left: 3px;
   margin-top: 7px;
 }
+
+
