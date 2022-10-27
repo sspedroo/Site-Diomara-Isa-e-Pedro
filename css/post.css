@@ -1,0 +1,88 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-menu{
+  padding-right: 150px;
+  font-size: 24px;
+}
+.logo-menu{
+  width: 70px; 
+  height: 60px;
+  margin-left: 150px;
+}
+
+.menu-link a{
+  color: white;
+  text-decoration: none;
+}
+.menu-link:hover{
+  font-size: 28px;
+  border-bottom: 1px solid white;
+}
+
+.carousel {
+  border: 1px solid black;
+} 
+
+
+.rodape-caixa{
+    padding-top: 8px;
+    padding-bottom: none;
+  }
+  
+  .logo-rodape{
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+  
+  .texto-rodape{
+    padding-bottom: 5px;
+  }
+
+
+  /*DAQUI PRA BAIXO EH DOS POSTS*/
+
+  body{
+    height: 100vh;
+  }
+
+body img{
+  height: 200px;
+  width: 400px;
+  border-radius: 8px 8px 0 0;
+}
+
+.container-post{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 30px;
+    align-content: center;
+    margin: 30px auto;
+    width: 1000px;
+}
+
+
+.cards1, .cards2, .cards3, .cards4{
+    width: 400px;
+    height: 305px;
+    border-radius: 8px;
+    background-color: rgba(186, 173, 245, 0.301);
+    margin: 10px auto;
+    transition: 300ms linear; 
+}
+
+
+.titulo{
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cards1:hover, .cards2:hover, .cards3:hover, .cards4:hover{
+    transform: scale(1.1);
+}
