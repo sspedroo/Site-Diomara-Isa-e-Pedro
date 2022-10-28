@@ -70,7 +70,6 @@
 #nome, #email{
   margin: 5px 5px;
   font-family: 'Montserrat', sans-serif;
-  width: auto;
 }
 
 input, textarea, button{
@@ -83,7 +82,7 @@ input, textarea, button{
     margin-bottom: 30px;
     display: block;
     margin-left: 6px;
-    width: auto;
+    width: 18.5em;
     margin-left: 0px;
 }
 
@@ -105,7 +104,7 @@ textarea#sugestao{
 #nome{
   display: block;
   margin-left: 6px;
-  width: auto;
+  width: 18.5em;
   margin-left: 0px;
 }
 
