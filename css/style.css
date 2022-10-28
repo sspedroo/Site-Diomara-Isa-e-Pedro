@@ -38,6 +38,7 @@ body {
   border-bottom: 1px solid white;
 }
 
+
 .carousel {
   border: 1px solid black;
 } 
@@ -110,4 +111,9 @@ input, textarea, button{
 
 label{
   display: block;
+}
+
+footer a{
+    
+  color: white;
 }
