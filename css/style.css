@@ -49,6 +49,12 @@ body {
 
 .botao-card{
   padding-top: 80px;
+  transition: 300ms all;
+}
+
+.botao-card:hover{
+  margin-right: 34px;
+  transform: scale(1.1);
 }
 
 .container-post img{

@@ -1,0 +1,26 @@
+@import url(../css/contato.css);
+
+article img{
+    width: 1000px;
+    text-align: center;
+}
+
+.container-publi{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 1em auto;
+}
+
+
+.sub-titulo{
+    font-size: 20px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.img-post {
+    height: 250px;
+    margin-bottom: 1em;
+}
