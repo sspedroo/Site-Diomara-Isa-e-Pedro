@@ -50,7 +50,10 @@ body {
 .botao-card{
   padding-top: 80px;
   transition: 300ms all;
+  margin-left: 720px;
+  width: 114px;
 }
+
 
 .botao-card:hover{
   margin-right: 34px;
