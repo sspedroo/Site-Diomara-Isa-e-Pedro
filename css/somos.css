@@ -112,3 +112,80 @@ footer a{
     
   color: white;
 }
+
+
+
+@media (max-width: 480px){
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  main{
+      margin: 0;
+      padding: 0;
+    }
+  
+
+  .container-topo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: none;
+    position: sticky;
+    width: 100vh;
+  }
+
+  
+  
+  .logo-menu{
+    display: none;
+  }
+  .nav-menu{
+    display: block;
+    padding: none;
+  }
+
+  .container-sobre{
+    display: block;
+    width: 90vw;
+    height: auto;
+  }
+
+  .container-sobre img{
+    display: block;
+    width: 85vw;
+    margin: 0 auto;
+    padding: 0;
+  
+  }
+
+  .isa{
+    width: 85vw;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .texto1 p, .texto2 p{
+    text-align: start;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .pepe{
+    width: 85vw;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  
+
+ 
+
+}
