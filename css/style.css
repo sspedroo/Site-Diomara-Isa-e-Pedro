@@ -54,13 +54,10 @@ body {
   width: 114px;
 }
 
-
-
 .botao-card:hover{
   margin-right: 34px;
   transform: scale(1.1);
 }
-
 
 .container-post img{
   height: 286px;
