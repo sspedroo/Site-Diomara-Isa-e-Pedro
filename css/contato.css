@@ -141,3 +141,60 @@ footer a{
     
   color: white;
 }
+
+
+@media (max-width: 480px){
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  main{
+      margin: 0;
+      padding: 0;
+    }
+  
+
+  .container-topo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: none;
+    position: sticky;
+    width: 100vh;
+  }
+
+  
+  
+  .logo-menu{
+    display: none;
+  }
+  .nav-menu{
+    display: block;
+    padding: none;
+  }
+
+  .form-1{
+    width: 100vw;
+    margin: 2em 0;
+  }
+
+  .msg-form{
+    text-align: center;
+  }
+
+  .quadrado-form{
+    width: 90vw;
+    margin: 00 auto;
+  }
+
+  .imgform img{
+    width: 80vw;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+
+}

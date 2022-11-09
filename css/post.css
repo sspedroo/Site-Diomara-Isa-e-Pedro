@@ -3,6 +3,7 @@
 }
 
 
+
 .nav-menu{
   padding-right: 150px;
   font-size: 24px;
@@ -62,11 +63,11 @@ body img{
     gap: 30px;
     align-content: center;
     margin: 30px auto;
-    width: 1000px;
+    width: 62.5rem;
 }
 
 
-.cards1, .cards2, .cards3, .cards4{
+.cards{
     width: 400px;
     height: 305px;
     border-radius: 8px;
@@ -84,7 +85,7 @@ body img{
     text-align: center;
 }
 
-.cards1:hover, .cards2:hover, .cards3:hover, .cards4:hover{
+.cards:hover{
     transform: scale(1.1);
     box-shadow: 10px 5px 5px rgba(204, 135, 158, 0.349);
     opacity: 0.6;
@@ -115,3 +116,56 @@ footer a{
   color: white;
 }
 
+
+
+
+@media (max-width: 480px){
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  main{
+      margin: 0;
+      padding: 0;
+    }
+  
+
+  .container-topo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: none;
+    position: sticky;
+    width: 100vh;
+  }
+
+  
+  
+  .logo-menu{
+    display: none;
+  }
+  .nav-menu{
+    display: block;
+    padding: none;
+  }
+
+  .container-post{
+    width: 90vw;
+    display: block;
+    align-items: center;
+    padding: none;
+    position: sticky;
+    height: auto;
+    margin: none;
+  }
+  .container-post img{
+    width: 90vw;
+  }
+
+  .cards{
+    width: 90vw;
+  }
+
+}

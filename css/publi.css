@@ -34,6 +34,7 @@ footer a{
     margin-left: 1em;
 }
 
+
 .tabela1{
     border: 1px solid black;
     background: #F0FFF0;
@@ -58,3 +59,9 @@ footer a{
 .sub{
     font-weight: bold;
 }
+=======
+@media (max-width: 480px){
+
+    
+}
+

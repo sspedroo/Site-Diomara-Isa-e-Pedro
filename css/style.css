@@ -118,3 +118,65 @@ footer a{
     
   color: white;
 }
+
+
+
+@media (max-width: 480px){
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+.container-banner{
+  display: inline-block;
+  max-width: 100vw;
+  margin-top: 1em;
+  max-height: 10vh;
+  text-align: center;
+}
+
+.d-block img{
+  max-width: 100vw;
+  max-height: 0;
+  padding: 0;
+}
+
+.carousel{
+  max-width: 100vw;
+  height: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.card-body{
+  width: auto;
+  height: auto;
+}
+
+.botao-card{
+  padding-top: 0;
+}
+
+.container-topo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: none;
+  position: sticky;
+  width: 100vw;
+}
+
+.logo-menu{
+  display: none;
+}
+.nav-menu{
+  display: block;
+  padding: none;
+}
+
+.container-fluid{
+  max-width: 100vw;
+}
+  
+}
