@@ -48,19 +48,19 @@ body {
   height: 387px;
 }
 
+
+
 .botao-card{
-  padding-top: 80px;
+  margin: 0;
+  padding-top: 0;
   transition: 300ms all;
   width: 114px;
 }
-
-
 
 .botao-card:hover{
   margin-right: 34px;
   transform: scale(1.1);
 }
-
 
 .container-post img{
   height: 286px;

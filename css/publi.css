@@ -34,7 +34,34 @@ footer a{
     margin-left: 1em;
 }
 
+
+.tabela1{
+    border: 1px solid black;
+    background: #F0FFF0;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabela1 td{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.tit{
+    font-weight: bold;
+}
+
+.sub{
+    font-weight: bold;
+}
+=======
 @media (max-width: 480px){
 
     
 }
+
